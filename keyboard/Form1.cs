@@ -55,11 +55,42 @@ namespace keyboard
 
             if (button.Text.Length > 1)
             {
-                //FuncButton();
+                FuncButton(button);
                 return;
             }
 
             labelLine.Text += button.Text;
+        }
+
+
+        private void FuncButton(Button button)
+        {
+            switch(button.Text)
+            {
+                case "up":
+                    foreach(Button b in listOfButtons)
+                    {
+                        if (b.Text.Length == 1)  b.Text = b.Text.ToUpper();
+                    }
+                    break;
+
+                case "down":
+                    foreach (Button b in listOfButtons)
+                    {
+                        if(b.Text.Length == 1) b.Text = b.Text.ToLower();
+                    }
+                    break;
+
+                case "enter":
+                    labelLine.Text += "\n";
+                    break;
+
+                case "backspace":
+                    if (labelLine.Text.Length == 0)
+                        return;
+                    labelLine.Text = labelLine.Text.Substring(0, labelLine.Text.Length - 1);
+                    break;
+            }
         }
 
 
