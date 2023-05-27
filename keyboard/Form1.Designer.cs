@@ -64,8 +64,6 @@
             button19 = new Button();
             button30 = new Button();
             button32 = new Button();
-            button36 = new Button();
-            button37 = new Button();
             SuspendLayout();
             // 
             // labelLine
@@ -89,6 +87,7 @@
             button1.TabIndex = 1;
             button1.Text = "q  ";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += ButtonClick;
             // 
             // button2
             // 
@@ -98,6 +97,7 @@
             button2.TabIndex = 2;
             button2.Text = "t";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += ButtonClick;
             // 
             // button3
             // 
@@ -107,6 +107,7 @@
             button3.TabIndex = 3;
             button3.Text = "r";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += ButtonClick;
             // 
             // button4
             // 
@@ -116,6 +117,7 @@
             button4.TabIndex = 4;
             button4.Text = "e";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += ButtonClick;
             // 
             // button5
             // 
@@ -125,6 +127,7 @@
             button5.TabIndex = 5;
             button5.Text = "w";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += ButtonClick;
             // 
             // button6
             // 
@@ -134,6 +137,7 @@
             button6.TabIndex = 6;
             button6.Text = "h";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += ButtonClick;
             // 
             // button7
             // 
@@ -143,6 +147,7 @@
             button7.TabIndex = 7;
             button7.Text = "y";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += ButtonClick;
             // 
             // button8
             // 
@@ -152,6 +157,7 @@
             button8.TabIndex = 8;
             button8.Text = "g";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += ButtonClick;
             // 
             // button9
             // 
@@ -161,6 +167,7 @@
             button9.TabIndex = 9;
             button9.Text = "f";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += ButtonClick;
             // 
             // button10
             // 
@@ -170,6 +177,7 @@
             button10.TabIndex = 10;
             button10.Text = "d";
             button10.UseVisualStyleBackColor = true;
+            button10.Click += ButtonClick;
             // 
             // button11
             // 
@@ -179,6 +187,7 @@
             button11.TabIndex = 11;
             button11.Text = "s";
             button11.UseVisualStyleBackColor = true;
+            button11.Click += ButtonClick;
             // 
             // button12
             // 
@@ -188,6 +197,7 @@
             button12.TabIndex = 12;
             button12.Text = "a";
             button12.UseVisualStyleBackColor = true;
+            button12.Click += ButtonClick;
             // 
             // button13
             // 
@@ -197,6 +207,7 @@
             button13.TabIndex = 13;
             button13.Text = "u";
             button13.UseVisualStyleBackColor = true;
+            button13.Click += ButtonClick;
             // 
             // button14
             // 
@@ -206,6 +217,7 @@
             button14.TabIndex = 14;
             button14.Text = "k";
             button14.UseVisualStyleBackColor = true;
+            button14.Click += ButtonClick;
             // 
             // button15
             // 
@@ -215,6 +227,7 @@
             button15.TabIndex = 15;
             button15.Text = "o";
             button15.UseVisualStyleBackColor = true;
+            button15.Click += ButtonClick;
             // 
             // button16
             // 
@@ -224,6 +237,7 @@
             button16.TabIndex = 16;
             button16.Text = "i";
             button16.UseVisualStyleBackColor = true;
+            button16.Click += ButtonClick;
             // 
             // button17
             // 
@@ -233,6 +247,7 @@
             button17.TabIndex = 17;
             button17.Text = "l";
             button17.UseVisualStyleBackColor = true;
+            button17.Click += ButtonClick;
             // 
             // button18
             // 
@@ -242,6 +257,7 @@
             button18.TabIndex = 18;
             button18.Text = "j";
             button18.UseVisualStyleBackColor = true;
+            button18.Click += ButtonClick;
             // 
             // button20
             // 
@@ -251,6 +267,7 @@
             button20.TabIndex = 20;
             button20.Text = "z";
             button20.UseVisualStyleBackColor = true;
+            button20.Click += ButtonClick;
             // 
             // button21
             // 
@@ -260,6 +277,7 @@
             button21.TabIndex = 21;
             button21.Text = "backspace";
             button21.UseVisualStyleBackColor = true;
+            button21.Click += ButtonClick;
             // 
             // button22
             // 
@@ -269,6 +287,7 @@
             button22.TabIndex = 22;
             button22.Text = "enter";
             button22.UseVisualStyleBackColor = true;
+            button22.Click += ButtonClick;
             // 
             // button23
             // 
@@ -278,6 +297,7 @@
             button23.TabIndex = 23;
             button23.Text = "p";
             button23.UseVisualStyleBackColor = true;
+            button23.Click += ButtonClick;
             // 
             // button24
             // 
@@ -287,6 +307,7 @@
             button24.TabIndex = 24;
             button24.Text = "'";
             button24.UseVisualStyleBackColor = true;
+            button24.Click += ButtonClick;
             // 
             // button25
             // 
@@ -296,6 +317,7 @@
             button25.TabIndex = 25;
             button25.Text = "n";
             button25.UseVisualStyleBackColor = true;
+            button25.Click += ButtonClick;
             // 
             // button26
             // 
@@ -305,6 +327,7 @@
             button26.TabIndex = 26;
             button26.Text = "b";
             button26.UseVisualStyleBackColor = true;
+            button26.Click += ButtonClick;
             // 
             // button27
             // 
@@ -314,6 +337,7 @@
             button27.TabIndex = 27;
             button27.Text = "v";
             button27.UseVisualStyleBackColor = true;
+            button27.Click += ButtonClick;
             // 
             // button28
             // 
@@ -323,6 +347,7 @@
             button28.TabIndex = 28;
             button28.Text = "c";
             button28.UseVisualStyleBackColor = true;
+            button28.Click += ButtonClick;
             // 
             // button29
             // 
@@ -332,6 +357,7 @@
             button29.TabIndex = 29;
             button29.Text = "x";
             button29.UseVisualStyleBackColor = true;
+            button29.Click += ButtonClick;
             // 
             // button31
             // 
@@ -341,6 +367,7 @@
             button31.TabIndex = 31;
             button31.Text = "?";
             button31.UseVisualStyleBackColor = true;
+            button31.Click += ButtonClick;
             // 
             // button33
             // 
@@ -350,6 +377,7 @@
             button33.TabIndex = 33;
             button33.Text = ".";
             button33.UseVisualStyleBackColor = true;
+            button33.Click += ButtonClick;
             // 
             // button34
             // 
@@ -359,6 +387,7 @@
             button34.TabIndex = 34;
             button34.Text = ",";
             button34.UseVisualStyleBackColor = true;
+            button34.Click += ButtonClick;
             // 
             // button35
             // 
@@ -368,6 +397,7 @@
             button35.TabIndex = 35;
             button35.Text = "m";
             button35.UseVisualStyleBackColor = true;
+            button35.Click += ButtonClick;
             // 
             // button19
             // 
@@ -377,6 +407,7 @@
             button19.TabIndex = 36;
             button19.Text = "up";
             button19.UseVisualStyleBackColor = true;
+            button19.Click += ButtonClick;
             // 
             // button30
             // 
@@ -386,6 +417,7 @@
             button30.TabIndex = 37;
             button30.Text = "down";
             button30.UseVisualStyleBackColor = true;
+            button30.Click += ButtonClick;
             // 
             // button32
             // 
@@ -393,34 +425,15 @@
             button32.Name = "button32";
             button32.Size = new Size(442, 40);
             button32.TabIndex = 38;
+            button32.Text = " ";
             button32.UseVisualStyleBackColor = true;
-            button32.Click += button32_Click;
-            // 
-            // button36
-            // 
-            button36.Location = new Point(628, 355);
-            button36.Name = "button36";
-            button36.Size = new Size(50, 40);
-            button36.TabIndex = 39;
-            button36.Text = "?";
-            button36.UseVisualStyleBackColor = true;
-            // 
-            // button37
-            // 
-            button37.Location = new Point(572, 355);
-            button37.Name = "button37";
-            button37.Size = new Size(50, 40);
-            button37.TabIndex = 40;
-            button37.Text = "?";
-            button37.UseVisualStyleBackColor = true;
+            button32.Click += ButtonClick;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button37);
-            Controls.Add(button36);
             Controls.Add(button32);
             Controls.Add(button30);
             Controls.Add(button19);
@@ -501,7 +514,5 @@
         private Button button19;
         private Button button30;
         private Button button32;
-        private Button button36;
-        private Button button37;
     }
 }
